@@ -1,0 +1,208 @@
+#room {
+  width: 80%;
+}
+
+#room header {
+  width: 100%;
+}
+
+#question-form {
+  margin: 0 auto;
+  /*width: 80%;*/
+}
+
+#question-form h2 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  line-height: 4.2rem;
+  margin-top: 6.4rem;
+}
+
+#question-form form {
+  padding: 1.6rem;
+  border: 0.2rem solid var(--grey-blue);
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  margin-bottom: 5.2rem;
+  height: 15rem;
+}
+
+#question-form form textarea {
+  resize: none; /* Para desativar o redcionamento da caixa de texto */
+  background: transparent;
+
+  outline: none;
+  width: 100%;
+  height: 55%;
+}
+
+#question-form textarea::placeholder {
+  color: var(--grey-blue);
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#question-form form footer > div {
+  /* ">" serve para a propriedade ser aplicada somente para a div dilha e não as netas */
+  color: var(--icons-details);
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+#question-form form footer button {
+  padding: 0.8rem 2.4rem;
+}
+
+#question-form form footer img {
+  justify-content: center;
+  padding: 0.6rem;
+}
+
+#question-form footer {
+  text-align: center;
+}
+
+#question-form footer h2 {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+#question-form footer p {
+  width: 27.7rem;
+  height: 3.8rem;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--grey-dark);
+}
+*/ #room main {
+}
+
+#room header {
+  /*width: 80%;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons {
+  display: flex;
+}
+
+#room header .buttons .button:nth-child(1) {
+  margin-right: 0.8rem;
+  padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+  margin-right: 0.8rem;
+  padding: 1.6rem 3.2rem;
+}
+
+#room header .buttons .button:nth-child(1) img {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+#room header .buttons .button:nth-child(2) img {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* QUESTION FORM */
+
+#question-form {
+  margin: 0 auto;
+  /*  width: 80%;*/
+}
+
+#question-form h2 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+  line-height: 4.2rem;
+  margin-top: 6.4rem;
+}
+
+#question-form form {
+  padding: 1.6rem;
+  border: 0.2rem solid var(--grey-blue);
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  margin-bottom: 1.6rem;
+  height: 15rem;
+}
+
+#question-form form textarea {
+  resize: none; /* Para desativar o redcionamento da caixa de texto */
+  background: transparent;
+
+  outline: none;
+  width: 100%;
+  height: 55%;
+}
+
+#question-form textarea::placeholder {
+  color: var(--grey-blue);
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#question-form form footer > div {
+  /* ">" serve para a propriedade ser aplicada somente para a div dilha e não as netas */
+  color: var(--icons-details);
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+#question-form form footer button {
+  padding: 0.8rem 2.4rem;
+}
+
+#question-form form footer img {
+  justify-content: center;
+  padding: 0.6rem;
+}
+
+#question-form footer {
+  text-align: center;
+}
+
+#question-form footer h2 {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+#question-form footer p {
+  width: 27.7rem;
+  height: 3.8rem;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--grey-dark);
+}
+
+#questions {
+  padding: 1.6rem;
+  border: 0.2rem solid var(--grey-blue);
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  margin-bottom: 1.6rem;
+  height: 15rem;
+}
