@@ -141,7 +141,6 @@
   border: 0.2rem solid var(--grey-blue);
   border-radius: 0 0.8rem 0.8rem 0.8rem;
   margin-bottom: 1.6rem;
-  height: 15rem;
 }
 
 #question-form form textarea {
@@ -199,10 +198,66 @@
   color: var(--grey-dark);
 }
 
-#questions {
-  padding: 1.6rem;
-  border: 0.2rem solid var(--grey-blue);
+/*   Question-wrapper */
+
+.question-wrapper {
+  background: var(--light-blue);
+  margin-bottom: 0.8rem;
   border-radius: 0 0.8rem 0.8rem 0.8rem;
-  margin-bottom: 1.6rem;
-  height: 15rem;
+  padding: 2.4rem;
 }
+
+.question-wrapper .question-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.question-wrapper .question-content .user {
+  clip-path: circle();
+  background: var(--blue);
+  padding: 1.4rem;
+}
+
+.question-wrapper .question-content p {
+  margin-left: 1.6rem;
+  word-break: break-word; /* Serve para, nao deixar que um pergunta grande quebre o layout */
+  display: flex;
+  align-items: center;
+  min-height: 5.2rem;
+
+}
+
+.question-wrapper .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.question-wrapper .actions > a {
+  display: flex;
+  align-items: center;
+}
+
+.question-wrapper .actions > a + a {
+  /* Outro seletor para direcionar a um elemento da msm div, a + a pega o irmao de "a"*/
+  margin-left: 2.4rem;
+}
+
+.question-wrapper .actions > a > img {
+  margin-right: 0.8rem;
+}
+
+/* Reeades*/
+
+.question-wrapper.read {
+  background: #eaecf2;
+}
+
+.question-wrapper.read .question-content .user {
+  clip-path: circle();
+  background: var(--grey-blue);
+  padding: 1.4rem;
+}
+/* MODAL */
+
+

@@ -18,11 +18,12 @@ html {
 
   --grey-dark: #4d5e77;
   --grey-blue: #a1b2cd;
-  --grey-medium: #d3d9e2;
+  --grey-medium: #eaecf2;
   --grey-light: #e5eaf1;
 
   font-size: 62.5%;
 }
+
 body {
   display: flex; /* Precisa dele, para ficar alinhados vesticalmentes */
   height: 100vh;
@@ -105,6 +106,17 @@ button.outlined,
   color: var(--blue);
   border: 0.2rem solid var(--blue);
 }
+
+button.red, .button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey, .button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
 
 /* IMPUT DOS BOTOES */
 

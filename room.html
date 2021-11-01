@@ -9,6 +9,7 @@
     <!--Styles-->
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/room.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
 
     <!--Styles-->
     <link rel="stylesheet" href="home.css" />
@@ -62,17 +63,6 @@
               <button>Enviar</button>
             </footer>
           </form>
-          <!--
-          <footer>
-            <div>
-              <img src="assets/noquestions.svg" alt="" />
-            </div>
-            <h2>Nenhuma pergunta por aqui...</h2>
-            <p>
-              Faça sua primeira pergunta e envie o código dessa sala para outras
-              pessoas!
-            </p>
-          </footer> -->
         </section>
 
         <section id="questions">
@@ -82,10 +72,10 @@
 
             <div class="question-wrapper">
               <!-- uma queatao -->
-              <div class="qustion-content">
+              <div class="question-content">
                 <!-- Conteudo da questao -->
                 <div class="user">
-                  <img src="assets/avatar.svg" alt="" />
+                  <img src="assets/user.svg" alt="usuario-1" />
                 </div>
                 <div class="question">
                   <p>Qual a differença entre const, var e let no javascript?</p>
@@ -93,11 +83,83 @@
               </div>
               <div class="actions">
                 <a href="#" class="check">
-                  <img src="assets/check.svg" alt="" />
+                  <img src="assets/check.svg" alt="Marcar como lido-1" />
                   Marcar como lida
                 </a>
                 <a href="#" class="delete">
-                  <img src="assets/trash.svg" alt="" />
+                  <img src="assets/trash.svg" alt="Delete" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper">
+              <!-- uma queatao -->
+              <div class="question-content">
+                <!-- Conteudo da questao -->
+                <div class="user">
+                  <img src="assets/user.svg" alt="usuario-1" />
+                </div>
+                <div class="question">
+                  <p>O que é tapescript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="check">
+                  <img src="assets/check.svg" alt="Marcar como lido " />
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="delete" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper">
+              <!-- uma queatao -->
+              <div class="question-content">
+                <!-- Conteudo da questao -->
+                <div class="user">
+                  <img src="assets/user.svg" alt="usuario-1" />
+                </div>
+                <div class="question">
+                  <p>
+                    Você já sabe quais as base que voce precisa melhorar para
+                    alcançar o seu próximo nível com maestria? Definiu o seu
+                    foco e objetivo para seguir em frete? Estou curiosa e
+                    embasbacada com sua perseverança por ter alcançado a
+                    terceira aula e sei que vai continuar ate o fim, então
+                    responde ai para gente?
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="check">
+                  <img src="assets/check.svg" alt="Marcar como lido " />
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="delete" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper read">
+              <!-- uma queatao -->
+              <div class="question-content">
+                <!-- Conteudo da questao -->
+                <div class="user">
+                  <img src="assets/user.svg" alt="usuario-3 " />
+                </div>
+                <div class="question">
+                  <p>O que é script?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="Delete" />
                   Excluir
                 </a>
               </div>
@@ -105,6 +167,31 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <!-- MODAL     -->
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que voce deseja excluir essa pergunta?</p>
+
+        <form action="#">
+          <label class="sr-only">Digite sua senha add</label>
+          <input
+            type="password"
+            id="password "
+            name="password"
+            placeholder="Digite sua senha"
+          />
+        </form>
+
+        <div class="buttons">
+          <div class="button grey">Cancelar</div>
+
+          <button class="red">Sim, excluir</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
